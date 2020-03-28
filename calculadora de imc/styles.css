@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f0f0f5;
+}
+
+input {
+    padding: 5px;
+    width: 240px;;
+    height: 50px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 0 24px;
+    margin: 5px;
+}
+
+button {
+    cursor: pointer;
+    height: 50px;
+    width: 80px;
+    background-color: #FFF;
+    border: 0px;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    transition: filter 0.5s;
+    margin-left: 0px;
+    margin-left: 70px;
+}
+
+button:hover {
+    filter: invert(70%);
+}
+
+p {
+    padding-top: 12px;
+    line-height: 30px;
+}
+
+span {
+    color: black;
+}
+
+#ImcTabela {
+    width: 130%;
+    margin-right: 50000px;
+    box-shadow: 0 0 100px rgba(0,0,0,0.1);
+    display: flexbox;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-left: -60px;
+    margin-top: 15px;
+}
+
+
+#calculadora {
+    width: 40%;
+    max-width: 1300px;
+    height: 120vh;
+    margin: 0 auto;
+    border-bottom: 0px; 
+    display: block;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    border-width: 300px;
+    padding: 80px;
+    background: #f0f0f5; 
+    justify-content: space-between;
+    align-items: center;
+    display: flexbox;
+    
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+}
+
+h1 {
+    padding-bottom: 15px;
+}
